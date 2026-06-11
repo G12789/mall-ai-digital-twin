@@ -1,0 +1,16 @@
+# Mall AI Digital Twin
+
+> A multi-tenant digital-twin + AI management platform for shopping malls: browser-based 3D floor visualization, unit/tenant/lease management, analytics, and a RAG-powered AI copilot. Frontend React 19 + Vite + three.js; backend Supabase (Postgres/pgvector, Auth, Storage, Edge Functions).
+
+Key facts:
+- Stack: React 19, TypeScript, Vite, Ant Design, three.js / react-three-fiber, Zustand, Tailwind, Supabase, optional LLM (DeepSeek-compatible).
+- Multi-tenant via tenant_id + Postgres row-level security.
+- AI copilot answers via RAG + pre-compiled read-only SQL templates (no raw LLM SQL).
+- License: MIT.
+
+## Docs
+- [README](https://github.com/G12789/mall-ai-digital-twin/blob/main/README.md): overview, architecture, getting started.
+- [AGENTS.md](https://github.com/G12789/mall-ai-digital-twin/blob/main/AGENTS.md): setup and conventions for AI agents.
+
+## Getting started
+- cd frontend && npm install && cp .env.example .env && npm run dev
