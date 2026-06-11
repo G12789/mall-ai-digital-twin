@@ -1,0 +1,5 @@
+# Cloudflare Pages configuration
+# Deploy: npx wrangler pages deploy dist --project-name=mall-twin-platform
+name = "mall-twin-platform"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-05-16"
